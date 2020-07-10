@@ -1,0 +1,45 @@
+body {
+  background: url(http://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k.jpg) no-repeat center/cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding-top: 30px;
+  text-align: center;
+}
+header img {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto;
+  cursor: url("./img/starwars_ship.png"), pointer;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+.buttons .btn {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 25px;
+  text-align: center;
+  opacity: 0.7;
+}
+.card h4 {
+  font-weight: bolder;
+}
+
+.card-colum {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#btn_item {
+  font-weight: bolder;
+  font-size: 17px;
+  cursor: pointer;
+  border: black 1px solid;
+  box-shadow: 0px 0px 21px 8px silver;
+}
